@@ -73,3 +73,96 @@ Este proyecto web utiliza HTML y CSS para mostrar una página principal con imá
 
 </body>
 </html>
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.main-photo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-photo-content {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid gold;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 3em;
+    color: gold;
+}
+
+.qr-frame {
+    margin-top: 20px;
+    /* Puedes agregar estilos específicos para el marco del código QR si es necesario */
+}
+
+.separator {
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.photo-catalog-container {
+    padding: 20px;
+}
+
+.slick-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.slick-carousel img {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px;
+    border: 5px solid gold;
+    border-radius: 5px;
+}
+
+.gif-frame {
+    margin: 20px auto;
+    max-width: 400px; /* Ajusta el ancho máximo del frame del GIF según tus necesidades */
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #25D366;
+    border: 2px solid #128C7E;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
