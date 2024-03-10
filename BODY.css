@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    display: block;
+    margin: 0 auto;
+    border: 10px solid gold; /* Establece el grosor y color del marco */
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em; /* Ajusta el tamaño del título según tus necesidades */
+    color: gold; /* Cambia el color del título según tus preferencias */
+}
